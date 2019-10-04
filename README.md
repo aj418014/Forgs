@@ -41,6 +41,16 @@ Check these off as the tasks are completed!
 - [ ] Weapon 2 Art
 - [ ] Weapon 2 Art Implimentation
 
+### ENEMIES
+- [ ] Frog grunt code
+- [ ] Frog grunt art
+- [ ] Frog grunt art implimentation
+- [ ] Frog tank code
+- [ ] Frog tank art
+- [ ] Frog tank art implimentation
+- [ ] Frog enemy 3 code
+- [ ] Frog enemy 3 art
+- [ ] Frog enemy 3 art implimentation
 
 ### LEVELS
 - [ ] Reusable level art assets
