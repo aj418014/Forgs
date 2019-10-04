@@ -30,7 +30,7 @@ Check these off as the tasks are completed!
 - [x] Basic FPS functionality
 - [x] Sprinting FPS mechanic
 - [x] Jumping FPS mechanic
-- [ ] Crouching FPS mechanic
+- [x] Crouching FPS mechanic
 
 
 ### WEAPON SYSTEM
@@ -67,6 +67,11 @@ Check these off as the tasks are completed!
 
 
 ## OPTIONAL TODOS
+### FPS SYSTEM
+- [ ] polish camera look
+- [ ] polish sprint system
+- [ ] polish jumping system
+- [ ] polish crouching system
 
 ### WEAPON SYSTEM
 - [ ] Other weapons
