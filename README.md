@@ -29,6 +29,7 @@ Check these off as the tasks are completed!
 ### FPS SYSTEM
 - [x] Basic FPS functionality
 - [x] Sprinting FPS mechanic
+- [ ] Jumping FPS mechanic (working on it!)
 - [ ] Crouching FPS mechanic
 
 
@@ -70,6 +71,12 @@ Check these off as the tasks are completed!
 ### WEAPON SYSTEM
 - [ ] Other weapons
 
+### MUSIC
+- [ ] Music for lvl 1
+- [ ] Boss Music 
+- [ ] Lvl 2 music
+- [ ] Lvl 3 music
+- [ ] Lvl 4 music
 
 ### LEVELS
 - [ ] Other Levels
