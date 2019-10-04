@@ -41,34 +41,44 @@ public class Movement : MonoBehaviour
 
     private void Move() //seperated function for moving the player(model?)
     {
+        float crouchMod;
         if (Input.GetKey(KeyCode.LeftShift))
         {
             finalSprintMod = sprintModifier;
-        }
-        else
-        {
+        } else {
             finalSprintMod = 1;
         }
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            transform.localScale = new Vector3(0, 0.7f, 0);
+            crouchMod = .4f;
+        } else {
+            transform.localScale = new Vector3(0, 1f, 0);
+            crouchMod = 1f;
+        }
+       
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(Vector3.forward * speed * finalSprintMod * Time.deltaTime); //translate player forward by the speed * deltatime
+            transform.Translate(Vector3.forward * speed * finalSprintMod * Time.deltaTime * crouchMod); //translate player forward by the speed * deltatime
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector3.left * speed * finalSprintMod * Time.deltaTime); //translate player left by the speed * deltatime
+            transform.Translate(Vector3.left * speed * finalSprintMod * Time.deltaTime * crouchMod); //translate player left by the speed * deltatime
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(Vector3.back * speed * finalSprintMod * Time.deltaTime); //translate player forward by the speed * deltatime
+            transform.Translate(Vector3.back * speed * finalSprintMod * Time.deltaTime * crouchMod); //translate player forward by the speed * deltatime
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector3.right * speed * finalSprintMod * Time.deltaTime); //translate player right by the speed * deltatime
+            transform.Translate(Vector3.right * speed * finalSprintMod * Time.deltaTime * crouchMod); //translate player right by the speed * deltatime
         }
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce);
         }
+
     }//Move
 
     private void RotateObject() //seperated function for rotating the player(model?)
