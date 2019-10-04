@@ -10,6 +10,7 @@ Minimum Viable Product for this game is as follows:
 
 * Full FPS movement (Walking around, sprinting, crouching)
 * 2 functional weapons
+* 2 enemy types
 * 1 boss
 * 4 levels
 
