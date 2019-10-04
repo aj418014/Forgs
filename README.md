@@ -34,7 +34,7 @@ Check these off as the tasks are completed!
 
 
 ### WEAPON SYSTEM
-- [ ] Weapon 1 code 
+- [ ] Weapon 1 code (Dani next thing)
 - [ ] Weapon 1 Art
 - [ ] Weapon 1 Art Implimentation
 - [ ] Weapon 2 code 
