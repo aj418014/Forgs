@@ -22,7 +22,7 @@ These will be implimented if we have the time to do so.
 * More Weapons
 * Secret boss
 
-##TODO
+## TODO
 
 Check these off as the tasks are completed!
 
