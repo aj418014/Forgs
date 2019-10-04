@@ -29,7 +29,7 @@ Check these off as the tasks are completed!
 ### FPS SYSTEM
 - [x] Basic FPS functionality
 - [x] Sprinting FPS mechanic
-- [ ] Jumping FPS mechanic (working on it!)
+- [x] Jumping FPS mechanic
 - [ ] Crouching FPS mechanic
 
 
